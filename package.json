@@ -1,0 +1,46 @@
+{
+  "name": "@monadstech/react-native-form-inputs",
+  "version": "0.0.1",
+  "description": "Input Components for @monadstech/react-native-form",
+  "main": "main.js",
+  "author": {
+    "name": "Pankaj Vaghela",
+    "email": "vpankaj1998official@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  },
+  "dependencies": {
+    "rc-util": "^5.0.5",
+    "react": "^16.13.1",
+    "react-native": "^0.63.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-native": "^0.63.1",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "rimraf": "^3.0.2",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^5.0.0",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonadsTech/react-native-form-inputs"
+  },
+  "homepage": "https://github.com/MonadsTech/react-native-form-inputs#readme",
+  "bugs": {
+    "url": "https://github.com/MonadsTech/react-native-form-inputs/issues"
+  }
+}
