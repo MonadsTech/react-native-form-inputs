@@ -1,1 +1,3 @@
-export const a = 1;
+import {InputText} from './inputs/InputText';
+
+export * from './inputs/InputText';

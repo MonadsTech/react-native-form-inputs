@@ -10,7 +10,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "watch": "tsc --watch"
   },
   "dependencies": {
     "rc-util": "^5.0.5",
